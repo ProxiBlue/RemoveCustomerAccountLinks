@@ -32,7 +32,7 @@ class IntegerNet_RemoveCustomerAccountLinks_Block_Navigation extends Mage_Custom
      */
     protected function _toHtml()
     {
-        $this->removeLink();
+        $this->removeLink('');
         return parent::_toHtml();
     }
 }
